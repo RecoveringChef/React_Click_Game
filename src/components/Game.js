@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import Container from './Container';
 import Footer from './Footer';
 import Banner from './Banner';
-import images from '../images';
+import images from '../img';
 
 
 class Game extends Component {
@@ -19,7 +19,7 @@ class Game extends Component {
         navMessage: 'Click an image to begin!',
 
         // contains an array of image urls
-        allCharacters: this.shuffleArray(),
+        allCards: this.shuffleArray(),
 
         // will track  each clicked element.
         wasClicked: [],
@@ -124,7 +124,7 @@ class Game extends Component {
                 <Banner />
                 <Container
                     shake={state.shake}
-                    characters={state.allCharacters}
+                    cards={state.allCards}
                     clickEvent={this.clickEvent}
                 />
                 <Footer />
