@@ -1,29 +1,32 @@
 .navbar {
   background-color: blanchedalmond;
-    height: 140px;
-    font-size: 18px;
+    height: 120px;
+    font-size: 20px;
     padding: 20px 0;
     width: 100%;
     -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     color: black;
     z-index: 99;
-    white-space: nowrap;
+  
+   
   }
   
   .navbar div {
 
     margin-bottom: 20px;
     width: 100%;
+    
+   
   }
   
 .title {
   float: left;
-  
+  text-shadow: 2px chocolate;
+  font-weight: 900;
 }
 
 .scores {
   text-align: center;
 }
   
-  /*too tall. text should be in 2 rows, not 3 */
