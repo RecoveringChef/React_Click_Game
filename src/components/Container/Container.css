@@ -1,12 +1,16 @@
 .container {
-    margin-top: 40px;
+    background-image: url('../../img/bg.png') !important;
+    margin-top: 4px;
     margin-bottom: 40px;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
-    perspective: 1000px;
+    width: 65%;
+    perspective: 750px;
  }
   
-.shake {
-    animation: shaker 0.82s cubic - bezier(0.36, 0.07, 0.19, 0.97) both;
- }
 
+ @media screen and (max-width: 700px) {
+    .container {
+        width: 90%;
+    }
+  }

@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import Container from './Container';
 import Footer from './Footer';
 import Banner from './Banner';
-import images from '../img';
+import images from '../images'
 
 
 class Game extends Component {
@@ -86,7 +86,7 @@ class Game extends Component {
                 highScore: highScore,
                 navMsgColor: 'incorrect',
                 navMessage: 'Incorrect guess!',
-                allCharacters: shuffled,
+                allCards: shuffled,
                 wasClicked: [],
                 shake: true
             });
@@ -98,7 +98,7 @@ class Game extends Component {
             highScore: highScore,
             navMsgColor: 'correct',
             navMessage: 'You Guessed Correctly!',
-            allCharacters: shuffled,
+            allCards: shuffled,
             wasClicked: prevState,
             shake: false
         });
